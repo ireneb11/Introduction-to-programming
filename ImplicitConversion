@@ -1,0 +1,15 @@
+namespace ImplicitConversion
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            byte livesMario = 3;
+            int maxLives = 5;
+
+            int remainingLives = maxLives - livesMario; //Conversion implicita de byte a int
+            Console.WriteLine("Vidas restantes: " + remainingLives);
+        }
+        //Other functions
+    }
+}
