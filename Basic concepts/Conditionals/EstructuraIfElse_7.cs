@@ -16,7 +16,9 @@ namespace EstructuraIf
             if (!armaRota && durabilidadArma > 0)
             {
                 durabilidadArma--; // Decrementa la durabilidad del arma
-                Console.WriteLine("Arma usada. Durabilidad restante: {0}", durabilidadArma);
+                Console.WriteLine("Arma usada. Durabilidad restante: {0}", durabilidadArma); // {0} = interpolación de valores. Es un marcador de posición que será reemplazado por un valor proporcionado después de la cadena.
+                                                                                             // Otra opción es usar $
+
             }
             else
             {
