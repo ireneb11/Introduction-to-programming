@@ -16,11 +16,11 @@ namespace EjercicioBucleFor2
                 if (monedasRecolectadas > 100)
                 {
                     precioObjeto *= 0.2f;
-                    Console.WriteLine($"Monedas recolectadas en el nivel {nivel}: {monedasRecolectadas}. El precio del objeto es: " + precioObjeto);
+                    Console.WriteLine($"Monedas recolectadas: {monedasRecolectadas}. Obtienes un 20% de descuento en la tienda de Toad. El precio del objeto es: " + precioObjeto);
                 }
                 else 
                 {
-                    Console.WriteLine($"Monedas recolectadas en el nivel {nivel}: {monedasRecolectadas}. No tienes suficientes monedas para comprar.");
+                    Console.WriteLine($"Monedas recolectadas: {monedasRecolectadas}. No tienes suficientes monedas para comprar.");
                 }
             }
         }
